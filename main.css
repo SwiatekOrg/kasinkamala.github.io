@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Courgette', cursive;
+	font: 18px/1.7 Catamaran,sans-serif;
 	background-image: url("img/bg.png");
 }
 
@@ -17,6 +17,7 @@ body{
 
 .nav-header{
     text-shadow: 0px 0px 50px black;
+	font-family: 'Courgette', cursive;
 	font-size: 50px;
 	font-weight: 700;
 	color: white;
@@ -49,15 +50,16 @@ body{
 }
 
 .welcoming-header{
-	font-size: 80px;
+	font-size: 100px;
 	font-weight: 700;
 	margin-left: 15px;
 	color: white;
 	text-shadow: 0px 0px 50px black;
+	line-height: 120%;
 }
 
 .fh{
-	padding-top: 470px; 
+	padding-top: 430px; 
 }
 
 #arrow{
@@ -70,8 +72,13 @@ body{
 	color: white;
 	text-shadow: 0 -15px 0 white, 0 -30px 0 white;
 	overflow: hidden;
-	transition: 1s ease;
+	transition: 0.3s ease;
 	margin: 60px auto 0 auto;
+}
+
+#arrow:hover{
+	transform: scale(1.1);
+	font-size: 6rem;
 }
 
 .fa-angle-down{
@@ -93,35 +100,16 @@ body{
 .conteiner > h1{
 	margin: 50px auto 0px auto;
 	position: relative;
+	font-family: 'Courgette', cursive;
 	font-size: 50px;
 	width: 730px;
-    color: #fff;
-    text-shadow: 0 0 3px black;
-    text-shadow: 1px 1px 0 #000,
-    -1px 1px 0 #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000,
-    0px 1px 0 #000,
-    0px -1px 0 #000,
-    -1px 0px 0 #000,
-    1px 0px 0 #000,
-    2px 2px 0 #000,
-    -2px 2px 0 #000,
-    2px -2px 0 #000,
-    -2px -2px 0 #000,
-    0px 2px 0 #000,
-    0px -2px 0 #000,
-    -2px 0px 0 #000,
-    2px 0px 0 #000,
-    1px 2px 0 #000,
-    -1px 2px 0 #000,
-    1px -2px 0 #000,
-    -1px -2px 0 #000,
-    2px 1px 0 #000,
-    -2px 1px 0 #000,
-    2px -1px 0 #000,
-    -2px -1px 0 #000;
-	}
+    color: black;
+    /*text-shadow: 2px 2px 3px black
+    , -2px -2px 3px black
+    , 2px -2px 3px black
+    , -2px 2px 3px black;*/
+
+}
 
 .border-top{
 	border-top: 100px solid transparent;
@@ -143,6 +131,7 @@ body{
 	-webkit-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.75);
+	transition-duration: 0.3s;
 }
 
 .item h2{
@@ -158,7 +147,7 @@ body{
 }
 
 .item:hover{
-
+	transform: scale(1.1);
 }
 
 .fa-calendar-check-o,.fa-futbol-o,.fa-map-o{
@@ -174,4 +163,9 @@ body{
     top: 18%;
     left: 47.5%;
     font-size: 50px;
+}
+
+.str{
+	top: 100%;
+	text-shadow: none;
 }
