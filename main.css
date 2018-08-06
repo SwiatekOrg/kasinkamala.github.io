@@ -160,8 +160,8 @@ body{
 .fa-star-o{
 	text-shadow: -50px 0 0 black, 50px 0 0 black;
     position: absolute;
-    top: 18%;
-    left: 47.5%;
+    top: 170px;
+    left: 600px;
     font-size: 50px;
 }
 
