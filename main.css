@@ -128,13 +128,13 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin-top: 120px;
 }
 
 .item{
 	text-align: center;
 	font-size: 21px;
 	margin: 25px;
-	margin-top: 130px;
 	margin-bottom: 100px;
 	max-width: 336px;
 	padding: 15px;
@@ -169,13 +169,33 @@ body{
 }
 
 .art{
-	
+	width: 500px;
+	height: 400px;
+	background-size: cover;
 }
 
 .first-img{
-	background-image: ;
+	background-image: url("img/1.jpg");
 }
 
 .second-img{
-	background-image: ;
+	background-image: url("img/2.jpg");
+}
+
+.art-text{
+	max-width: 600px;
+}
+
+.art-text p{
+	margin: 0;
+	padding: 30px;
+	padding-top: 10px;
+	text-align: justify;
+	text-align-last: center;
+}
+
+.art-text h1{
+	text-align: center;
+	margin: 10px;
+	font-size: 40px;
 }
