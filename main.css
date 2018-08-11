@@ -46,6 +46,9 @@ body{
 	max-width: 1250px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.conteiner:first-child{
 	padding-bottom: 30px;
 }
 
@@ -108,7 +111,7 @@ body{
 
 }
 
-.conteiner > h1::after,.after-line::after{
+.after-line::after{
 	content: "";
     width: 400px;
     background-color: black;
@@ -117,6 +120,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .border-top{
@@ -198,4 +202,72 @@ body{
 	text-align: center;
 	margin: 10px;
 	font-size: 40px;
+}
+
+.weather-img{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-image: url("img/weather.jpg");
+	background-size: cover;
+}
+
+.osrodek-img{
+	background-image: url("img/osrodek.jpg");
+    background-size: cover;
+	width: 100%;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.osrodek-text{
+	max-width: 500px;
+	height: 550px;
+    background-color: white;
+    margin: 50px 100px 50px auto;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.osrodek-text p{
+	text-align: justify;
+	text-align-last: center;
+	padding: 20px;
+	margin: 0;
+}
+
+.osrodek-text h1{
+	padding-top: 50px;
+	font-size: 40px;
+	margin: 0;
+}
+
+#padding-zero{
+	padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 680px;
+}
+
+#weather-keeper{
+	width: 300px;
+	padding: 70px;
+}
+
+#inpl-weather-main{
+}
+
+.font-size{
+	font-size: 75px !important;
+}
+
+#map{
+	width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+footer{
+	padding: 20px;
 }
