@@ -168,12 +168,12 @@ nav>ol>li>a>p{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .border-top{
-	border-top: 99px solid transparent;
+	border-top: 98px solid transparent;
 }
 
 
@@ -181,7 +181,7 @@ nav>ol>li>a>p{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-top: 120px;
+
 }
 
 .item{
@@ -266,13 +266,14 @@ nav>ol>li>a>p{
 	width: 100%;
 	padding-top: 1px;
 	padding-bottom: 1px;
+	height: 90vh;
 }
 
 .osrodek-text{
 	max-width: 500px;
 	height: 550px;
     background-color: white;
-    margin: 50px 100px 50px auto;
+    margin: 120px 100px 100px auto;
     opacity: 0.7;
     text-align: center;
 }
@@ -295,7 +296,7 @@ nav>ol>li>a>p{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 680px;
+    height: 90vh
 }
 
 #weather-keeper{
