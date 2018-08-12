@@ -1,4 +1,4 @@
-$(window).scroll(function(e) {
+jQuery(window).scroll(function(e) {
      var currentposition = $(document).scrollTop();//aktualna pozycja względem początku          
      var bannerheight = $("#nav").height();//wysokość elementu, po którym menu ma stać się białe
       if(currentposition>bannerheight)//odwrotny warunek
