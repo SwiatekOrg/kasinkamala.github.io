@@ -261,16 +261,15 @@ nav>ol>li>a>p{
 	background-image: url("img/weather.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: calc(100vh - 97px)
 }
 
 .osrodek-img{
 	background-image: url("img/osrodek.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-	width: 100%;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	height: 90vh;
+	width: 100%;;
+	height: calc(100vh - 97px);
 }
 
 .osrodek-text{
