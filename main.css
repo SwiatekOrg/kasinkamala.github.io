@@ -9,6 +9,7 @@ h1,h2,h3{
 	font-family: 'Courgette', cursive;
 }
 
+
 #nav{
 	display: flex;
 	position: fixed;
@@ -42,6 +43,7 @@ h1,h2,h3{
 	background-repeat: no-repeat;
 	margin-top: 50px;
 }
+
 
 nav{
 	margin-left: auto;
@@ -92,7 +94,7 @@ nav>ol>li>a>p{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	width: 100%;
+	height: 100vh;
 }
 
 .conteiner{
@@ -115,7 +117,7 @@ nav>ol>li>a>p{
 }
 
 .fh{
-	padding-top: 480px; 
+	padding-top: 50vh; 
 }
 
 #arrow{
@@ -129,7 +131,7 @@ nav>ol>li>a>p{
 	text-shadow: 0 -15px 0 white, 0 -30px 0 white;
 	overflow: hidden;
 	transition: 0.3s ease;
-	margin: 20px auto 0 auto;
+	margin: 40px auto 0 auto;
 }
 
 #arrow:hover{
@@ -274,9 +276,9 @@ nav>ol>li>a>p{
 
 .osrodek-text{
 	max-width: 500px;
-	height: 550px;
+	height: 75vh;
     background-color: white;
-    margin: 120px 100px 100px auto;
+    margin: 5vh 100px 100px auto;
     opacity: 0.7;
     text-align: center;
 }
@@ -304,7 +306,6 @@ nav>ol>li>a>p{
 
 #weather-keeper{
 	width: 300px;
-	padding: 70px;
 }
 
 #inpl-weather-main{
@@ -314,19 +315,140 @@ nav>ol>li>a>p{
 	font-size: 75px !important;
 }
 
-#map{
-	width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 100px;
+#map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin: 10px;
 }
 
-
-.iframe{
-	width: 800px;
-	height: 600px;
+#map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 footer{
 	padding: 20px;
+}
+
+@media only screen and (max-width: 1300px){
+	.welcoming-header{
+		margin-left: 50px;
+	}
+	#nav ol>li{
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	.welcoming-header{
+		font-size: 85px;
+	}
+	.nav-header{
+		font-size: 40px;
+	}
+	.nav-armsimg{
+		width: 80px;
+    	height: 100px;
+	}
+}
+
+@media only screen and (max-width: 1050px){
+	.first-img{
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 1050px){
+	nav ol{
+		display: none;
+	}
+	.osrodek-text{
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.welcoming-header{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 850px){
+	.welcoming-header{
+		font-size: 75px;
+	}
+	.fh {
+    padding-top: 58vh;
+	}
+	#map-responsive{
+		height: 200px;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	.fh{
+		padding-top: 50vh;
+	}
+	.osrodek-text{
+		margin: 40px;
+	}
+	#map-responsive{
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 530px){
+	.welcoming-header{
+		font-size: 65px;
+	}
+	.after-line::after{
+		width: 350px;
+	}
+	.art{
+		width: 400px;
+		height: 320px;
+	}
+	#map-responsive{
+		height: 400px;
+	}
+}
+
+@media only screen and (max-width: 450px){
+	.welcoming-header{
+		font-size: 55px;
+	}
+
+	.conteiner > h1{
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	.welcoming-header{
+		font-size: 50px;
+	}
+	.fh{
+		padding-top: 50vh;
+	}
+	.art {
+    width: 350px;
+    height: 280px;
+	}
+	.osrodek-text p{
+		font-size: 2vh
+	}
+	.item{
+
+	}
+}
+
+@media only screen and (min-height: 800px) and (max-height: 825px){
+	.fh{
+		padding-top: 56vh;
+	}
 }
