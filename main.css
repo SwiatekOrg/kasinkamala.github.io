@@ -338,9 +338,6 @@ footer{
 	.first-img{
 		margin-bottom: 20px;
 	}
-	.absolute{
-
-	}
 }
 
 @media only screen and (max-width: 1050px){
@@ -423,8 +420,7 @@ footer{
 	.osrodek-text p{
 		font-size: 2vh
 	}
-}
-
-@media only screen and (min-height: 800px) and (max-height: 825px){
-
+	.after-line::after{
+		width: 275px;
+	}
 }
