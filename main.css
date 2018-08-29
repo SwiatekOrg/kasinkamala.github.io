@@ -308,7 +308,7 @@ img.centered {
     position:relative;
     height:0;
     margin: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 #map-responsive iframe{
@@ -436,5 +436,11 @@ footer{
 	}
 	.after-line::after{
 		width: 275px;
+	}
+	.nav-header{
+		font-size: 30px;
+	}
+	#map-responsive{
+		margin: 0;
 	}
 }
