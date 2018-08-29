@@ -10,6 +10,7 @@
 	 	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 	 	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
 	 	<link rel="stylesheet" type="text/css" href="main.css">
+	 	<link rel="stylesheet" type="text/css" href="animate.css">
 	 	<title>Kasinka Mała - idealne miejsce do wypoczynku</title>
 	</head>
 	<body>
@@ -26,9 +27,9 @@
 				</ol>
 			</nav>
 		</section>
-		<section class="main-img" id="start">
+		<section class="parallax-window" id="start" data-parallax="scroll" data-image-src="img/main.jpg">
 			<div class="conteiner" id="first-img">
-				<div class="absolute">
+				<div class="absolute" data-animate="bounceInLeft">
 					<header class="welcoming-header fh">Wypoczynek?</header>
 					<header class="welcoming-header">Kasinka zaprasza!</header>
 				</div>
@@ -36,30 +37,30 @@
 		</section>
 		<main id="main">
 			<section class="conteiner border-top">
-				<h1>Szukasz miejsca do wypoczynku?</h1>
-				<div class="after-line"></div>
+				<h1 data-animate="fadeIn">Szukasz miejsca do wypoczynku?</h1>
+				<div class="after-line" data-animate="fadeIn"></div>
 				<div class="flex-conteiner">
-					<article class="item">
+					<article class="item" data-animate="zoomIn">
 						<h2>Test</h2>
 						<div class="fa fa-calendar-check-o"></div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.</p>
 					</article>
-					<article class="item">
+					<article class="item" data-animate="zoomIn">
 						<h2>Test</h2>
 						<div class="fa fa-futbol-o"></div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.</p>
 					</article>
-					<article class="item">
+					<article class="item" data-animate="zoomIn">
 						<h2>Test</h2>
 						<div class="fa fa-map-o"></div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.</p>
 					</article>
 				</div>
-				<div class="after-line" ></div>
+				<div class="after-line" data-animate="fadeIn"></div>
 			</section>
-			<section class="osrodek-img border-top" id="lubogoszcz">
+			<section class="border-top parallax-window" id="lubogoszcz" data-parallax="scroll" data-image-src="img/osrodek.jpg">
 				<div class="conteiner">
-					<div class="osrodek-text">
+					<div class="osrodek-text" data-animate="fadeInLeftBig">
 						<h1>Test</h1>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis.
@@ -68,32 +69,32 @@
 				</div>
 			</section>
 			<section class="conteiner border-top" id="lokacje">
-				<div class="after-line"></div>
+				<div class="after-line" data-animate="fadeIn"></div>
 				<article class="flex-conteiner">
-					<div class="art first-img"></div>
-					<div class="art-text">
+					<div class="art first-img" data-animate="fadeInLeft"></div>
+					<div class="art-text" data-animate="fadeInRight">
 						<h1>Test</h1>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. 
 						</p>
 					</div>
 				</article>
-				<div class="after-line"></div>
+				<div class="after-line" data-animate="fadeIn"></div>
 				<article class="flex-conteiner">
-					<div class="art-text">
+					<div class="art-text" data-animate="fadeInLeft">
 						<h1>Test</h1>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. 
 						</p>
 					</div>
-					<div class="art second-img"></div>
+					<div class="art second-img" data-animate="fadeInRight"></div>
 				</article>
 			</section>	
 		</main>
-		<div class="after-line"></div>
-		<section class="weather-img border-top" id="pogoda">
+		<div class="after-line" data-animate="fadeIn"></div>
+		<section class="border-top parallax-window" id="pogoda" id="lubogoszcz" data-parallax="scroll" data-image-src="img/weather.jpg">
 			<div class="conteiner" id="padding-zero">
-				<div id="weather-keeper">
+				<div id="weather-keeper" data-animate="zoomIn">
 					<div id="inpl-weather-main" data-icT="1" data-cId="13044" data-clBg="2980b9" data-clTxt="f8f8f8" data-clLink="ffffff" data-txtDesc="1" data-fTemp="1" data-crPs="1" data-crWind="1" data-fr="1" data-wdh="300" data-hIf="400" data-d="https://widgets.interia.pl" style="position:relative;width:300px;background-color:#2980b9">
 						<div id="inpl-weather-links" style="background-color:#2980b9; padding:5px 0px 15px;text-align:center">
 						   <a id="wlHbh" style="color:#ffffff;font-size:13px;padding-right:24px;text-decoration:none;" href="https://pogoda.interia.pl/prognoza-szczegolowa-,cId,undefined" title=" - prognoza pogody" >Godzina po godzinie </a>
@@ -113,16 +114,17 @@
 		</section>
 		<section class="conteiner border-top" id="mapa">
 			
-			<h1 class="font-size">Mapa</h1>
-			<div class="after-line"></div>
-			<div id="map-responsive">
+			<h1 class="font-size" data-animate="fadeIn">Mapa</h1>
+			<div class="after-line" data-animate="fadeIn"></div>
+			<div id="map-responsive" data-animate="fadeIn">
 				<iframe  class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41276.7240569874!2d20.00548901937929!3d49.71465621963869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47160cf1516e74f7%3A0xf098bedfdfd87bad!2sKasinka+Ma%C5%82a!5e0!3m2!1spl!2spl!4v1533997206490" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
-			<div class="after-line"></div>
 		</section>
 		<footer class="conteiner">Wszelkie prawa zastrzeżone &copy Mateusz Świątek</footer>
 
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.min.js"></script>
 		<script type="text/javascript" src="plik.js"></script>
+		<script type="text/javascript" src="parallax.js-1.5.0/parallax.js"></script>
+		<script type="text/javascript" src="jquery.viewportchecker.min.js"></script>
 	</body>
 </html>
