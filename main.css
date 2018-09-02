@@ -328,6 +328,10 @@ footer{
 	padding: 20px;
 }
 
+footer a{
+	text-decoration: none;
+}
+
 @media only screen and (max-width: 1300px){
 	.welcoming-header{
 		margin-left: 50px;
