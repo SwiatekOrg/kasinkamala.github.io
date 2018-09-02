@@ -247,7 +247,7 @@ img.centered {
 	background-image: url("img/weather.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: calc(100vh - 95px);
+	height: 100vh;
 	background-attachment: fixed;
 }
 
